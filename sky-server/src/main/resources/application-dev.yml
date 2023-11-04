@@ -12,7 +12,7 @@ sky:
     bucket-name: b-sp
     endpoint: oss-cn-beijing.aliyuncs.com
   qiniu:
-    access-key-id:
-    access-key-secret:
+    access-key-id: V9WfNybiDaXSZaeAgi4kCnST8mjX8k0SuvUFLKnG
+    access-key-secret: fA_5dj41mLKLSDwNC1qq3xu1--KU_yCXEKGLB8Yv
     bucket-name: bldxj
     img-url: pic.icefun.icu

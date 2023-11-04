@@ -2,6 +2,7 @@ package com.sky.mapper;
 
 import com.github.pagehelper.Page;
 import com.sky.annotation.AutoFile;
+import com.sky.constant.MessageConstant;
 import com.sky.dto.DishPageQueryDTO;
 import com.sky.entity.Dish;
 import com.sky.enumeration.OperationType;
@@ -50,4 +51,9 @@ public interface DishMapper {
      * 根据id集合批量删除菜品
      * */
     void deleteByIds(List<Long> ids);
+    /**
+     * 修改菜品信息
+     * */
+    @AutoFile(value = OperationType.UPDATE)
+    void update(Dish dish);
 }
