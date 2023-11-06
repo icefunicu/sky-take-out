@@ -172,4 +172,9 @@ public class DishServiceImpl implements DishService {
     }
 
 
+    public void startOrStop(Integer status, Long id) {
+        dishMapper.StartOrStop(status,id);
+    }
+
+
 }
