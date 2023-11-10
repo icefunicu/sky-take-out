@@ -52,7 +52,7 @@ public interface SetmealMapper {
      */
     @Delete("delete from setmeal where id = #{id}")
     void deleteById(Long setmealId);
-
+    @AutoFile(value = OperationType.UPDATE)
     void update(Setmeal setmeal);
     /**
      * 动态条件查询套餐
