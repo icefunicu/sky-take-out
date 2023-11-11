@@ -24,4 +24,6 @@ sky:
   wechat:
     appid:
     secret:
+    notify-url: https://4083affb.r15.vip.cpolar.cn/notify/paySuccess
+    refund-notify-url: https://4083affb.r15.vip.cpolar.cn/notify/refundSuccess
 
