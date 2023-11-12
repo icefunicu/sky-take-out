@@ -75,11 +75,5 @@ public class AutoFileAspect {
             setUpdateTime.invoke(arg,now);
             setUpdateUser.invoke(arg,currentId);
         }
-
-
-
     }
-
-
-
 }
